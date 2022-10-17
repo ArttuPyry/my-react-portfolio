@@ -1,0 +1,33 @@
+header {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header__container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    gap: 15rem;
+}
+
+/* ============================== CTA ============================== */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ============================== ME ============================== */
+
+.me {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
