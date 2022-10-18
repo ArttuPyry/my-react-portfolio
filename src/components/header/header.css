@@ -14,7 +14,6 @@ header {
 }
 
 /* ============================== CTA ============================== */
-
 .cta {
     margin-top: 2.5rem;
     display: flex;
@@ -23,11 +22,38 @@ header {
 }
 
 /* ============================== ME ============================== */
-
 .me {
-    width: 30rem;
-    height: 30rem;
+    width: 26rem;
+    height: 26rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 68vh;
+    }
+    
+    .header__container {
+        display: block;
+    }
+
+    .info {
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .me {
+        padding: 2rem 1rem 1rem 1rem;
+        position: absolute;
+        left: calc(50% - 13rem);
+    }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    .header {
+        height: 100vh;
+    }
 }
