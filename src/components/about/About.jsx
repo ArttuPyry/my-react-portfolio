@@ -5,7 +5,7 @@ import nerd from '../../assets/nerd.png'
 const About = () => {
   return (
     <section id='about'>
-      <div className="about__title">
+      <div className="titles">
         <h2>About Me</h2>
       </div>
       <div className="container about__container">

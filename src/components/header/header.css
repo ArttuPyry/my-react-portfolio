@@ -8,7 +8,6 @@ header {
     text-align: center;
     align-items: center;
     height: 100%;
-    position: relative;
     justify-content: center;
     gap: 15rem;
 }
@@ -29,7 +28,29 @@ header {
 }
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 992px) {
+    .header {
+        height: 68vh;
+    }
+
+    .header__container {
+        display: block;
+    }
+
+    .info {
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .me {
+        padding: 2rem 1rem 1rem 1rem;
+        position: absolute;
+        left: calc(50% - 13rem);
+    }
+}
+
+/*
+@media all and (max-width: 1024px) {
     .header {
         height: 68vh;
     }
@@ -49,10 +70,4 @@ header {
         left: calc(50% - 13rem);
     }
 }
-
-/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
-@media screen and (max-width: 600px) {
-    .header {
-        height: 100vh;
-    }
-}
+*/

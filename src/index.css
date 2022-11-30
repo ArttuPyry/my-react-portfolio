@@ -12,9 +12,10 @@
 
 :root {
     --color-bg: rgb(25, 25, 25);
-    --color-bg-variant: rgb(75, 75, 75);
+    --color-bg-variant: rgb(52, 50, 53);
+    --color-bg-variant-light: rgb(72, 70, 73);
     --color-primary: rgb(245, 188, 188);
-    --color-primary-variant: blue;
+    --color-primary-variant: rgb(245, 188, 188);
     --color-white: white;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -22,7 +23,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 }
 
 html {
@@ -48,7 +49,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 h1 {
@@ -89,9 +90,9 @@ a:hover {
     display: inline-block;
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
+    border-radius: 0.6rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     transition: var(--transition);
 }
 
@@ -106,6 +107,19 @@ a:hover {
     color: var(--color-bg)
 }
 
+.titles {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2rem;
+}
+
+.titles h2{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
 img {
     display: block;
     width: 100%;
@@ -117,19 +131,22 @@ img {
     .container {
         width: var(--container-width-md);
     }
+
+    section {
+        margin-top: 6rem;
+    }
 }
 
-section {
-    margin-top: 6rem;
-}
+
 
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
+
+    section > h2{
+        margin-top: 2rem;
+    }
 }
 
-section {
-    margin-top: 2rem;
-}
