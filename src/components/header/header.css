@@ -24,35 +24,12 @@ header {
 .me {
     width: 26rem;
     height: 26rem;
-    overflow: hidden;
 }
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
-@media all and (max-width: 992px) {
-    .header {
-        height: 68vh;
-    }
-
-    .header__container {
-        display: block;
-    }
-
-    .info {
-        padding-top: 5rem;
-        padding-bottom: 2rem;
-    }
-
-    .me {
-        padding: 2rem 1rem 1rem 1rem;
-        position: absolute;
-        left: calc(50% - 13rem);
-    }
-}
-
-/*
-@media all and (max-width: 1024px) {
-    .header {
-        height: 68vh;
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
     }
     
     .header__container {
@@ -65,9 +42,30 @@ header {
     }
 
     .me {
-        padding: 2rem 1rem 1rem 1rem;
+        width: 35rem;
+        height: 35rem;
+        padding-top: 5rem;
         position: absolute;
-        left: calc(50% - 13rem);
+        left: calc(50% - 17.5rem);
     }
 }
-*/
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+
+    .info {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+
+    .me {
+        width: 23rem;
+        height: 23rem;
+        padding: 2rem 2rem 2rem 2rem;
+        position: absolute;
+        left: calc(50% - 11.5rem);
+    }
+}

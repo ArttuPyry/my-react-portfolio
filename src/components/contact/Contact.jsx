@@ -30,7 +30,7 @@ const Contact = () => {
         <form action="">
           <input type="name" name='name' placeholder='Name' required/>
           <input type="email" name='email' placeholder='Email' required/>
-          <textarea name="message" rows="10" placeholder='Message' required></textarea>
+          <textarea name="message" rows="12" placeholder='Message' required></textarea>
           <button type='send' className='btn btn-primary'>Send</button>
         </form>
 

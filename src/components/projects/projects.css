@@ -1,11 +1,10 @@
 .projects__container {
-    padding-top: 7.5rem;
+    padding-top: 7rem;
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     max-width: 50%;
-
 }
 
 .project__item {
@@ -32,3 +31,30 @@
     margin: 0.6rem 0 0.6rem;
 }
 
+/* ============================== 2K SCREENS (1440p) ============================== */
+@media screen and (min-width: 2560px){
+    .projects__container{
+        max-width: 60%;
+    }
+    .project__item{
+        width: 27rem;
+    }
+}
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .projects__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        max-width: 70%;
+    }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    .projects__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding-top: 7.5rem;
+    }
+}

@@ -1,4 +1,5 @@
 .contact__container {
+    padding-top: 16rem;
     display: flex;
     text-align: center;
     align-items: center;
@@ -26,7 +27,7 @@
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 2px solid var(--color-bg-variant);
+    border: 2px solid var(--color-primary);
     transition: var(--transition);
 }
 .contact__option a{
@@ -57,3 +58,16 @@ input, textarea {
     resize: none;
 }
 
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .contact__container {
+
+    }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    .contact__container {
+        padding-top: 8.5rem;
+    }
+}

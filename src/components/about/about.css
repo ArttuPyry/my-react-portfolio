@@ -1,3 +1,16 @@
+.about__title {
+    padding-top: 2rem;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about__title h2{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
 .about__container{
     display: flex;
     text-align: center;
@@ -6,6 +19,7 @@
     position: relative;
     justify-content: center;
     gap: 15rem;
+    padding-top: 14.5rem;
 }
 
 .about__me-image{
@@ -24,3 +38,70 @@
     font-weight: 800;
 }
 
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .about__container {
+        display: block;
+    }
+
+    .about__content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about__content p {
+        text-align: center;
+    }
+
+    .about__me {
+        padding: 7rem 0rem 2rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about__me-image{
+        width: 24rem;
+        height: 24rem;
+    }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .about__container{
+        padding-top: 9rem;
+    }
+
+    .about__me{
+        padding: 0rem 0rem 4rem 0rem;
+    }
+
+    .about__me-image{
+        width: 32rem;
+        height: 32rem;
+    }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    .about__container{
+        padding-top: 0.5rem;
+    }
+
+    .about__content p {
+        font-size: 1rem;
+    }
+
+    .about__content p {
+        max-width: 100%;
+    }
+
+    .about__me {
+        padding: 7rem 0rem 0rem 0rem;
+    }
+
+    .about__me-image{
+        width: 24rem;
+        height: 24rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}
