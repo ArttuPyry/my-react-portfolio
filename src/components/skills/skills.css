@@ -48,14 +48,21 @@
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px) {
     .skills__container {
+        padding-top: 7rem;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .skills {
+        height: 28.5rem;
     }
 }
 
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
 @media screen and (max-width: 600px) {
     .skills__container {
-        padding-top: 7.5rem;
+        padding-top: 7.8rem;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .skills {
+        height: fit-content;
     }
 }

@@ -15,7 +15,7 @@
     --color-bg-variant: rgb(52, 50, 53);
     --color-bg-variant-light: rgb(72, 70, 73);
     --color-primary: rgb(245, 188, 188);
-    --color-primary-variant: rgb(245, 188, 188);
+    --color-primary-variant: rgb(196, 222, 182);
     --color-white: white;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -57,7 +57,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 6rem;
     min-height: 100vh;
 }
 
@@ -133,7 +133,7 @@ img {
     }
 
     section {
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
 }
 
