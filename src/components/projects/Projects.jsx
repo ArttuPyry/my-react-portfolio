@@ -110,31 +110,51 @@ const Projects = () => {
 
       {modal2 && (
         <div className="modal">
-          <Project2 />
+            <Project2>
+            <button className='btn btn-primary' onClick={() => toggleModal(2)}>
+              Sulje
+            </button>
+          </Project2>
         </div>
       )}
 
       {modal3 && (
         <div className="modal">
-          <Project3 />
+            <Project3>
+            <button className='btn btn-primary' onClick={() => toggleModal(3)}>
+              Sulje
+            </button>
+          </Project3>
         </div>
       )}
 
       {modal4 && (
         <div className="modal">
-          <Project4 />
+            <Project4>
+            <button className='btn btn-primary' onClick={() => toggleModal(4)}>
+              Sulje
+            </button>
+          </Project4>
         </div>
       )}
 
       {modal5 && (
         <div className="modal">
-          <Project5 />
+            <Project5>
+            <button className='btn btn-primary' onClick={() => toggleModal(5)}>
+              Sulje
+            </button>
+          </Project5>
         </div>
       )}
 
       {modal6 && (
         <div className="modal">
-          <Project6 />
+            <Project6>
+            <button className='btn btn-primary' onClick={() => toggleModal(6)}>
+              Sulje
+            </button>
+          </Project6>
         </div>
       )}
 

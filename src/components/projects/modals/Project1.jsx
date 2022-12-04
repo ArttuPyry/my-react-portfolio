@@ -11,7 +11,7 @@ const Project1 = ({ children }) => {
          </div>
 
         <div className="titles">
-         <h2>Projektin nimi</h2>
+         <h2>Projektin nimi 1</h2>
         </div>
 
         <div className="modal__content">
