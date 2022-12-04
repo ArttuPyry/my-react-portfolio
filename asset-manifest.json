@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.e53ddd80.css",
-    "main.js": "/my-react-portfolio/static/js/main.e6f434a4.js",
+    "main.js": "/my-react-portfolio/static/js/main.d5c09ab6.js",
     "static/media/CV_fin.pdf": "/my-react-portfolio/static/media/CV_fin.0c41f0514115d5593e53.pdf",
     "static/media/wideimg.png": "/my-react-portfolio/static/media/wideimg.1d311d1294452979f3ab.png",
     "static/media/VRKiwiProto.png": "/my-react-portfolio/static/media/VRKiwiProto.a360c1bd5e9195a67560.png",
     "static/media/epichero.png": "/my-react-portfolio/static/media/epichero.a6eb7d25164964d3f938.png",
     "index.html": "/my-react-portfolio/index.html",
     "main.e53ddd80.css.map": "/my-react-portfolio/static/css/main.e53ddd80.css.map",
-    "main.e6f434a4.js.map": "/my-react-portfolio/static/js/main.e6f434a4.js.map"
+    "main.d5c09ab6.js.map": "/my-react-portfolio/static/js/main.d5c09ab6.js.map"
   },
   "entrypoints": [
     "static/css/main.e53ddd80.css",
-    "static/js/main.e6f434a4.js"
+    "static/js/main.d5c09ab6.js"
   ]
 }
