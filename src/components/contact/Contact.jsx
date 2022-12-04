@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_i8alq68', 'template_czdxajo', form.current, '51Gop3LJQxsIXpxXQ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id='contact'>
       <div className="titles">
@@ -33,11 +47,11 @@ const Contact = () => {
 
         {/* END OF CONTACT OPTIONS */}
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="name" name='name' placeholder='Nimi' required/>
           <input type="email" name='email' placeholder='Sähköposti' required/>
           <textarea name="message" rows="12" placeholder='Viesti' required></textarea>
-          <button type='send' className='btn btn-primary'>Lähetä</button>
+          <button type='submit' className='btn btn-primary'>Lähetä</button>
         </form>
 
       </div>
