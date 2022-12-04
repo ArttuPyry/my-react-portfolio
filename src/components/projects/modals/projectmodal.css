@@ -1,0 +1,73 @@
+.modals {
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: var(--color-transparent-bg);
+    margin-top: 0;
+    align-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    z-index: 3;
+    overflow-y: auto;
+    overscroll-behavior: none;
+}
+
+.modal__content {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem 5rem 5rem 5rem;
+    background: var(--color-bg-variant);
+    width: 60%;
+    padding-top: 7rem;
+    min-height: 90vh;
+    height: max-content;
+    text-align: center;
+    display: flex;
+}
+
+.tech__info {
+    text-align: left;
+    width: 30%;
+}
+
+.project__showcase {
+    text-align: left;
+    width: 70%;
+}
+
+.modal_btn {
+position: fixed;
+left: 74.5%;
+padding: 1rem 1rem 1rem 1rem;
+}
+
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .modal__content {
+        width: 80%;
+    }
+}
+
+
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    .modal__content {
+        margin-top: 1.5rem;
+        width: 90%;
+        padding: 6rem 2rem 2rem 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .modal_btn {
+        position: fixed;
+        left: 70%;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}

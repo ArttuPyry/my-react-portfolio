@@ -15,9 +15,10 @@
     --color-bg-variant: rgb(52, 50, 53);
     --color-bg-variant-light: rgb(72, 70, 73);
     --color-primary: rgb(245, 188, 188);
-    --color-primary-variant: rgb(196, 222, 182);
+    --color-primary-variant: rgb(245, 188, 188);
     --color-white: white;
     --color-light: rgba(255, 255, 255, 0.6);
+    --color-transparent-bg: rgba(0, 0, 0, 0.3);
 
     --transition: all 400ms ease;
 
