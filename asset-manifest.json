@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.e53ddd80.css",
-    "main.js": "/my-react-portfolio/static/js/main.740fa49f.js",
+    "main.css": "/my-react-portfolio/static/css/main.5857f308.css",
+    "main.js": "/my-react-portfolio/static/js/main.028c3bc4.js",
+    "static/media/GrapplingHook.gif": "/my-react-portfolio/static/media/GrapplingHook.b4f64a628a7c61461d3e.gif",
+    "static/media/AIStrafe.gif": "/my-react-portfolio/static/media/AIStrafe.22304f5ab58b619fc277.gif",
+    "static/media/RoguelikeDungeonGenerator.gif": "/my-react-portfolio/static/media/RoguelikeDungeonGenerator.a0586318450c519bfbe2.gif",
+    "static/media/Roguelike.gif": "/my-react-portfolio/static/media/Roguelike.248c16801c6c31b2d41a.gif",
     "static/media/CV_fin.pdf": "/my-react-portfolio/static/media/CV_fin.0c41f0514115d5593e53.pdf",
+    "static/media/town.png": "/my-react-portfolio/static/media/town.3cce40e7796f015b62be.png",
+    "static/media/upgrade.png": "/my-react-portfolio/static/media/upgrade.6f3f70fdff1cd3de0331.png",
     "static/media/wideimg.png": "/my-react-portfolio/static/media/wideimg.1d311d1294452979f3ab.png",
+    "static/media/menu.png": "/my-react-portfolio/static/media/menu.df8833fc3b122172ae79.png",
+    "static/media/AICoverAim.png": "/my-react-portfolio/static/media/AICoverAim.844fec057ffe75a8c543.png",
     "static/media/VRKiwiProto.png": "/my-react-portfolio/static/media/VRKiwiProto.a360c1bd5e9195a67560.png",
+    "static/media/map.png": "/my-react-portfolio/static/media/map.7e00995550587f96224f.png",
+    "static/media/editor.png": "/my-react-portfolio/static/media/editor.aa429ff1a99783ac7c53.png",
+    "static/media/CustomBulletGrenade.png": "/my-react-portfolio/static/media/CustomBulletGrenade.f6038b8af5afb8dd432a.png",
+    "static/media/CustomBulletBasic.png": "/my-react-portfolio/static/media/CustomBulletBasic.5cf018493502fc99ef1f.png",
+    "static/media/items.png": "/my-react-portfolio/static/media/items.d8c0f93c6cba19d493e8.png",
     "static/media/epichero.png": "/my-react-portfolio/static/media/epichero.a6eb7d25164964d3f938.png",
     "index.html": "/my-react-portfolio/index.html",
-    "main.e53ddd80.css.map": "/my-react-portfolio/static/css/main.e53ddd80.css.map",
-    "main.740fa49f.js.map": "/my-react-portfolio/static/js/main.740fa49f.js.map"
+    "main.5857f308.css.map": "/my-react-portfolio/static/css/main.5857f308.css.map",
+    "main.028c3bc4.js.map": "/my-react-portfolio/static/js/main.028c3bc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e53ddd80.css",
-    "static/js/main.740fa49f.js"
+    "static/css/main.5857f308.css",
+    "static/js/main.028c3bc4.js"
   ]
 }
