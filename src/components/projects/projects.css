@@ -19,6 +19,7 @@
 .project__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
+    cursor: pointer;
 }
 
 .project__item-image {
@@ -31,8 +32,18 @@
     margin: 0.6rem 0 0.6rem;
 }
 
+/* ============================== 4K SCREENS ============================== */
+@media screen and (min-width: 3840px){
+    .projects__container{
+        max-width: 70%;
+    }
+    .project__item{
+        width: 47rem;
+    }
+}
+
 /* ============================== 2K SCREENS (1440p) ============================== */
-@media screen and (min-width: 2560px){
+@media screen and (min-width: 2560px) and (max-width: 3839px){
     .projects__container{
         max-width: 60%;
     }
@@ -42,7 +53,7 @@
 }
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
     .projects__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;

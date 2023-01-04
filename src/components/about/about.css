@@ -38,6 +38,35 @@
     font-weight: 800;
 }
 
+/* ============================== 4K SCREENS ============================== */
+@media screen and (min-width: 3840px){
+    .about__container {
+        padding-top: 32rem;
+    }
+
+    .about__content p {
+        max-width: 80rem;
+        font-size: 2.5rem;
+    }
+
+    .about__me-image{
+        width: 55rem;
+        height: 55rem;
+    }
+}
+
+/* ============================== 2K SCREENS (1440p) ============================== */
+@media screen and (min-width: 2560px) and (max-width: 3839px){
+    .about__container {
+        padding-top: 21rem;
+    }
+
+    .about__content p {
+        max-width: 55rem;
+        font-size: 1.7rem;
+    }
+}
+
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px) {
     .about__container {

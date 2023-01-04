@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="container skills__container">
         <article className="skills">
           <div className="skills__header">
-            <h3>Ohjelmointi kielet</h3>
+            <h3>Ohjelmointikielet</h3>
           </div>
 
           <ul className="skills__list">
@@ -33,7 +33,7 @@ const Skills = () => {
 
         <article className="skills">
           <div className="skills__header">
-            <h3>Peli moottorit</h3>
+            <h3>Pelimoottorit</h3>
           </div>
 
           <ul className="skills__list">

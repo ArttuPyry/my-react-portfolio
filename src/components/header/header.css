@@ -26,6 +26,14 @@ header {
     height: 26rem;
 }
 
+/* ============================== 4K SCREENS ============================== */
+@media screen and (min-width: 3840px){
+    .me {
+        width: 55rem;
+        height: 55rem;
+    }
+}
+
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px) {
     header {

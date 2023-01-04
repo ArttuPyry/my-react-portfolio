@@ -127,6 +127,26 @@ img {
     object-fit: cover;
 }
 
+@media screen and (min-width: 3840px){
+    .btn {
+        padding: 1.75rem 2.2rem;
+        border-radius: 0.6rem;
+        border: 2px solid var(--color-primary);
+        font-size: 1.5rem;
+    }
+}
+
+/* ============================== 4K SCREENS ============================== */
+@media screen and (min-width: 3840px){
+    h1, h2, h3, h4, h5 {
+        font-size: 2.5rem;
+    }
+    
+    h1 {
+        font-size: 5rem;
+    }
+}
+
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px) {
     .container {
@@ -137,8 +157,6 @@ img {
         margin-top: 4rem;
     }
 }
-
-
 
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
 @media screen and (max-width: 600px) {

@@ -47,6 +47,18 @@ left: 74.5%;
 padding: 1rem 1rem 1rem 1rem;
 }
 
+.project__titles {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2rem;
+}
+
+.project__titles h2{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px) {
@@ -63,12 +75,24 @@ padding: 1rem 1rem 1rem 1rem;
         margin-top: 1.5rem;
         width: 90%;
         padding: 6rem 2rem 2rem 2rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 7rem;
     }
 
     .modal_btn {
         position: fixed;
         left: 70%;
         padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .tech__info {
+        font-size: 0.8rem;
+    }
+
+    .project__showcase {
+        font-size: 0.9rem;
+    }
+
+    .project__titles h2{
+        font-size: 1.2rem;
     }
 }

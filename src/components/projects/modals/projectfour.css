@@ -1,0 +1,19 @@
+.project__showcase_long img {
+    max-width: 50%;
+}
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .project__showcase_long img {
+        max-width: 80%;
+    }
+}
+
+
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    .project__showcase_long img {
+        max-width: 90%;
+    }
+}

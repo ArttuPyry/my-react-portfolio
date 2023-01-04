@@ -60,6 +60,40 @@ input, textarea {
     resize: none;
 }
 
+/* ============================== 4K SCREENS ============================== */
+@media screen and (min-width: 3840px){
+    .contact__container {
+        padding-top: 35rem;
+    }
+
+    .contact__option a{
+        font-size: 1.9rem;
+    }
+
+    .contact__option p{
+        font-size: 1.9rem;
+    }
+
+    form ::placeholder{
+        font-size: 1.4rem;
+    }
+
+    form, textarea {
+        font-size: 1.4rem;
+    }
+
+    form, input {
+        font-size: 1.4rem;
+    }
+}
+
+/* ============================== 2K SCREENS (1440p) ============================== */
+@media screen and (min-width: 2560px) and (max-width: 3839px){
+    .contact__container {
+        padding-top: 23rem;
+    }
+}
+
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px) {
     .container.contact__container {
