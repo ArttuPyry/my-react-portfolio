@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.5a5c8d1f.css",
-    "main.js": "/my-react-portfolio/static/js/main.5ebbe5af.js",
+    "main.js": "/my-react-portfolio/static/js/main.5d836ce0.js",
     "static/media/GrapplingHook.gif": "/my-react-portfolio/static/media/GrapplingHook.b4f64a628a7c61461d3e.gif",
     "static/media/AIStrafe.gif": "/my-react-portfolio/static/media/AIStrafe.22304f5ab58b619fc277.gif",
     "static/media/RoguelikeDungeonGenerator.gif": "/my-react-portfolio/static/media/RoguelikeDungeonGenerator.a0586318450c519bfbe2.gif",
     "static/media/klikkerpeli.gif": "/my-react-portfolio/static/media/klikkerpeli.6e3064e59e0203b10671.gif",
     "static/media/Roguelike.gif": "/my-react-portfolio/static/media/Roguelike.248c16801c6c31b2d41a.gif",
-    "static/media/CV_fin.pdf": "/my-react-portfolio/static/media/CV_fin.0c41f0514115d5593e53.pdf",
+    "static/media/CV_-_Arttu_Viitajylha_-_ENG.pdf": "/my-react-portfolio/static/media/CV_-_Arttu_Viitajylha_-_ENG.7f3d8f067051d560f4e0.pdf",
     "static/media/ded.png": "/my-react-portfolio/static/media/ded.76d08a976247a1e57118.png",
     "static/media/robot.png": "/my-react-portfolio/static/media/robot.8dae0d90a0c22766e9f1.png",
     "static/media/crate.png": "/my-react-portfolio/static/media/crate.1df38446bfeb220f1a78.png",
@@ -34,10 +34,10 @@
     "static/media/epichero.png": "/my-react-portfolio/static/media/epichero.a6eb7d25164964d3f938.png",
     "index.html": "/my-react-portfolio/index.html",
     "main.5a5c8d1f.css.map": "/my-react-portfolio/static/css/main.5a5c8d1f.css.map",
-    "main.5ebbe5af.js.map": "/my-react-portfolio/static/js/main.5ebbe5af.js.map"
+    "main.5d836ce0.js.map": "/my-react-portfolio/static/js/main.5d836ce0.js.map"
   },
   "entrypoints": [
     "static/css/main.5a5c8d1f.css",
-    "static/js/main.5ebbe5af.js"
+    "static/js/main.5d836ce0.js"
   ]
 }
