@@ -4,11 +4,11 @@ import './nav.css'
 const Nav = () => {
   return (
     <nav>
-      <a href="/my-react-portfolio/#">Etusivu</a>
-      <a href="/my-react-portfolio/#projects">Projektit</a>
-      <a href="/my-react-portfolio/#about">Minä</a>
-      <a href="/my-react-portfolio/#skills">Taidot</a>
-      <a href="/my-react-portfolio/#contact">Ota yhteyttä</a>
+      <a href="/my-react-portfolio/#">Home</a>
+      <a href="/my-react-portfolio/#projects">Projects</a>
+      <a href="/my-react-portfolio/#about">About me</a>
+      <a href="/my-react-portfolio/#skills">Skills</a>
+      <a href="/my-react-portfolio/#contact">Contacts</a>
     </nav>
   )
 }

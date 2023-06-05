@@ -41,12 +41,13 @@ const Project3 = ({ children }) => {
 
           <div className="project__showcase">
             <p>
-            Vapaa-ajalla työskentelen yksin roguelikepelin parissa, jossa pelaajan pitää päästä tornin huipulle satunnaisesti generoitujen kerrosten läpi.
-              <img src={RoguelikeDungeonGenerator} alt="RoguelikeDungeonGenerator" />
-              <br />
-              Kerrokset täytetään erillaisilla esteillä ja vihollisilla, jotka yrittävät estää pelaajan etenemisen. Jokaiseen tasoon tulee myös aarrehuone sekä "boss" viholliselle huone, jonka pelaajan täytyy voittaa päästäkseen seuraavaan kerrokseen.
+              In my spare time I'm working on roguelike game. Players task is to go through randomly generated dungeon.
               <br /><br />
-              Pidän graafisen puolen tosi rajattuna: 9 x 9 pixeliä per sprite vain mustaa ja valkoista käyttäen.
+              test dungeon generator
+              <img src={RoguelikeDungeonGenerator} alt="RoguelikeDungeonGenerator" />
+              Floors are filled with different obstacles and enemies. Every floor will contain boss room and item room.
+              <br /><br />
+              For game art I went for 1Bit to keep it simple
               <img src={Roguelike} alt="Roguelike" />
               <img src={editor} alt="editor" />
             </p>

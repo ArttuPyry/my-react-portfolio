@@ -36,30 +36,28 @@ const Project4 = ({ children }) => {
               <p>- 2D</p>
             </li>
             <li>
-              <p>- Klikkeri</p>
+              <p>- Clicker</p>
             </li>
             <li>
-              <p>- Yksinpeli</p>
+              <p>- Singleplayer</p>
             </li>
           </ul>
 
           <div className="project__showcase project__showcase_long">
             <p>
-            Tehtäväksi saimme tehdä ryhmässä Android-pelin.
-            <br />
-            Pelissä itse työskentelin taistelun, kaupan, inventaarion, suurimman osan valikkojen sekä pikseligrafiikan parissa.
-            <br /><br />
-            Päätimme ryhmässä tehdä klikkeripelin. Pelissä ideana on päästä kolmen tason läpi, joissa kohtaat erilaisia vihollisia ja bosseja.
-            <br /><br />
-            Pelin taistelu on simppeli: Vihollinen hyökkää automaattisesti satunnaisella hyökkäyksellä ja pelaajan pitää painaa loitsua tai hyökkäystä
-            <img src={klikkerpeli} alt="klikkerpeli" /> 
-            <br />
-            Pelistä löytyy myös kauppa, josta voit ostaa aseita ja juomia.
-            <br />
-            Juomilla voi palauttaa elämäpisteitä sekä manaa.
-            <img src={screenshottwo} alt="screenshottwo" /> 
+              For this group project we made an Android game.
+              <br />
+              I programmed the combat system, the shop, the inventory and most menus. I also made most of the pixel art.
+              <br /> <br />
+              In game you have to get through three levels of fighting against different enemies and bosses. Enemies and bosses drop different loot.
+              <br /> <br />
+              Combat is fairly simple: Enemies attack automatically and player must press buttons to attack but some more powerfull attacks cost mana.
+              <br /> <br />
+              Player can buy potions and new gear from shop. Player can use potions to restore mana and health.
+              <img src={klikkerpeli} alt="klikkerpeli" /> 
             <img src={screenshotfive} alt="screenshotfive" /> 
             <img src={screenshotthree} alt="screenshotthree" /> 
+            <img src={screenshottwo} alt="screenshottwo" /> 
             <img src={screenshotfour} alt="screenshotfour" /> 
             <img src={screenshotone} alt="screenshotone" />  
             </p>

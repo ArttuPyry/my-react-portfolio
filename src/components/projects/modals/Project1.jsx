@@ -32,35 +32,34 @@ const Project1 = ({ children }) => {
               <p>- PC</p>
             </li>
             <li>
-              <p>- 2.5D</p>
+              <p>- 3D</p>
             </li>
             <li>
-              <p>- Klikker</p>
+              <p>- Clicker</p>
             </li>
             <li>
-              <p>- Yksinpeli</p>
+              <p>- Singleplayer</p>
             </li>
           </ul>
 
           <div className="project__showcase">
             <p>
-              Pelituotantokurssilla jokaiselle ryhmälle jaettiin erilainen idea ja ohjeet peliin. Pelin ideaa sai hieman muokata.
-              Ideaksi saimme klikker/idle pelin jossa pelataan aseenkantajalla.
-              Toimin <span className="highlight">graafikkona</span> ja <span className="highlight">ohjelmoijana</span> tässä projektissa.
+              In game production course every team was given an idea and rules for a game but we were allowed to change things. We were to make a clicker/idle game were you play as a squire.
+              I worked with <span className="highlight">graphics</span> and <span className="highlight">code</span> in this project.
               <br /> <br />   
-              Jaiomme pelin kahteen osaan, "kaupunki" sekä kartta. Kaupunkiosassa päivitetään rakennuksia, jotka passiivisesti kerää mareriaaleja, joilla päivitetään ritarin varustusta,
-              Kartta osassa ritari lähetetään tekemään tehtäviä, joista saa palkkioksi lisää materiaaleja.
+              We split game into two parts: city and map. In city you can upgrade buildings which increases passive material gain and with materials you upgrade the knights gear.
+              In map you can send the knight for an adventure which gives even more materials.
               <br /> <br />
-              Kaupunki:
+              City:
               <img src={town} alt="town" />
               <br />
-              Kartta:
+              Map:
               <img src={map} alt="map" />
               <br />
-              Ritarin päivitys menu:
+              Knight upgrade menu:
               <img src={upgrade} alt="upgrade" />
               <br />
-              Päävalikko:
+              Mainmenu:
               <img src={menu} alt="menu" />
             </p>
           </div>

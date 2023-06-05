@@ -80,7 +80,7 @@ const Projects = () => {
   return (
     <section id='projects'>
       <div className="titles">
-        <h2>Projektit</h2>
+        <h2>Projects</h2>
       </div>
 
       <div className="container projects__container">
@@ -102,7 +102,7 @@ const Projects = () => {
         <div className="modal">
           <Project1>
             <button className='btn btn-primary' onClick={() => toggleModal(1)}>
-              Sulje
+              Close
             </button>
           </Project1>
         </div>
@@ -112,7 +112,7 @@ const Projects = () => {
         <div className="modal">
             <Project2>
             <button className='btn btn-primary' onClick={() => toggleModal(2)}>
-              Sulje
+              Close
             </button>
           </Project2>
         </div>
@@ -122,7 +122,7 @@ const Projects = () => {
         <div className="modal">
             <Project3>
             <button className='btn btn-primary' onClick={() => toggleModal(3)}>
-              Sulje
+              Close
             </button>
           </Project3>
         </div>
@@ -132,7 +132,7 @@ const Projects = () => {
         <div className="modal">
             <Project4>
             <button className='btn btn-primary' onClick={() => toggleModal(4)}>
-              Sulje
+              Close
             </button>
           </Project4>
         </div>
@@ -142,7 +142,7 @@ const Projects = () => {
         <div className="modal">
             <Project5>
             <button className='btn btn-primary' onClick={() => toggleModal(5)}>
-              Sulje
+              Close
             </button>
           </Project5>
         </div>
@@ -152,7 +152,7 @@ const Projects = () => {
         <div className="modal">
             <Project6>
             <button className='btn btn-primary' onClick={() => toggleModal(6)}>
-              Sulje
+              Close
             </button>
           </Project6>
         </div>

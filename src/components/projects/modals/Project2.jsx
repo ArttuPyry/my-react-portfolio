@@ -17,7 +17,7 @@ const Project2 = ({ children }) => {
          </div>
 
         <div className="project__titles">
-         <h2>VR Prototyyppi</h2>
+         <h2>VR Prototype</h2>
         </div>
 
         <div className="modal__content">
@@ -38,37 +38,36 @@ const Project2 = ({ children }) => {
 
           <div className="project__showcase">
             <p>
-            Suoritin 'Tieto- ja viestintätekniikan perustehtävät' sekä 'Ohjelmointi' näytöt MeKiwi:llä. 
+            I completed 'Basic tasks of information and communication technology' and 'Programming' displays of skills at MeKiwi
             <br /><br />
-            Meille annettiin teema ja peli-idea, jonka mukaan me koodasimme sekä testasimme erilaisia mekaniikkoja. Päätin tehdä muokattavan ammuksen, vihollis AI:n sekä heittokoukun.
+            Our job was to code and test different mechanics for virtual reality game. I decided to program a customizable bullet, enemy AI and a grappling hook.
             <br /><br />
-            Muokattavalle ammukselle annoin paljon eri asetuksia, joilla pystyit tekemään monia erilaisia ammuksia, kuten perusammuksia, räjähteitä, kranaatteja tai kimpolevia scifiammuksia.
+            For the customizable bullet I did multiple options so you can use one script for grenades, basic bullet, scifi style bouncy bullet or anything that does damage.
             <br /><br />
-
-            Asetukset perusammukselle:
+            Basic bullet:
             <img src={customBulletBasic} alt="customBulletBasic" />
             <br />
-            Asetukset pomppivalle kranaatille:
+            Bouncy grenade:
             <img src={customBulletGrenade} alt="customBulletGrenade" />
             <br />
-            AI:lle tein neljä eri tilaa: partioi, aja takaa, hyökkää sekä piiloudu. 
-            <br /><br />
-            Partioi: Tässä tilassa AI hakee satunnaisen kohdan kentässä ja kävelee siihen. 
-            <br /><br />
-            Aja takaa: Kun AI näkee pelaajan se lähtee juoksemaan pelaajaa kohti.
-            <br /><br />
-            Hyökkää: Jos AI pääsee tarpeeksi lähelle pelaajaa, se alkaa ampumaan muokattavilla ammuksilla sekä liikkuu satunnaisiin kohtiin väistelläkseen pelaajan ammuksia.
-            <br /><br />
-            Piiloudu: Jos AI:n elämäpisteet ovat tarpeeksi alhaiset se juoksee karkuun ja yrittää piiloutua.
+            For enemy AI I made 4 states
+            <br />
+            Patrol: In this state enemy walks to random spot in close range
+            <br />
+            Chase: Enemy runs towards a target
+            <br />
+            Attack: Enemy attacks a target and strafes around it. 
+            <br />
+            Hide: If enemy is low HP it will try to run and hide
 
             <br /><br />
-            AI hyökkää pelaajaa ja väistelee:
+            AI attacking and strafing
             <img src={AIstrafe} alt="AIstrafe" />
             <br />
-            AI suosii seinän takaa ampumista:
+            Enemy prefers shooting from behind cover.
             <img src={AICoverAim} alt="AICoverAim" />
             <br />
-            Heittokokku:
+            Grappling hook:
             <img src={GrapplingHook} alt="GrapplingHook" />
             </p>
           </div>

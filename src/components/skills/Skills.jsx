@@ -5,18 +5,21 @@ const Skills = () => {
   return (
     <section id='skills'>
       <div className="titles">
-      <h2>Taidot</h2>
+      <h2>Skills</h2>
       </div>
 
       <div className="container skills__container">
         <article className="skills">
           <div className="skills__header">
-            <h3>Ohjelmointikielet</h3>
+            <h3>Programming languages</h3>
           </div>
 
           <ul className="skills__list">
             <li>
               <p>- C#</p>
+            </li>
+            <li>
+              <p>- C++</p>
             </li>
             <li>
               <p>- GDScript (Python)</p>
@@ -33,7 +36,7 @@ const Skills = () => {
 
         <article className="skills">
           <div className="skills__header">
-            <h3>Pelimoottorit</h3>
+            <h3>Game engines</h3>
           </div>
 
           <ul className="skills__list">
@@ -52,7 +55,7 @@ const Skills = () => {
 
         <article className="skills">
           <div className="skills__header">
-            <h3>Kehitystyökalut</h3>
+            <h3>Programming tools</h3>
           </div>
 
           <ul className="skills__list">
@@ -75,6 +78,9 @@ const Skills = () => {
               <p>- Trello</p>
             </li>
             <li>
+              <p>- HacknPlan</p>
+            </li>
+            <li>
               <p>- WinSCP</p>
             </li>
           </ul>
@@ -83,7 +89,7 @@ const Skills = () => {
 
         <article className="skills">
           <div className="skills__header">
-            <h3>Kuvankäsittely ja 3D-mallinnus</h3>
+            <h3>Image editing and 3D modeling</h3>
           </div>
 
           <ul className="skills__list">
@@ -95,6 +101,9 @@ const Skills = () => {
             </li>
             <li>
               <p>- Aseprite</p>
+            </li>
+            <li>
+              <p>- Krita</p>
             </li>
             <li>
               <p>- Blender</p>

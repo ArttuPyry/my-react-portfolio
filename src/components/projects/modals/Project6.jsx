@@ -14,7 +14,7 @@ const Project6 = ({ children }) => {
          </div>
 
         <div className="project__titles">
-         <h2>Prisonbreak</h2>
+         <h2>Prison break</h2>
         </div>
 
         <div className="modal__content">
@@ -32,20 +32,20 @@ const Project6 = ({ children }) => {
               <p>- 2D</p>
             </li>
             <li>
-              <p>- Tasohyppely</p>
+              <p>- Platformer</p>
             </li>
           </ul>
 
           <div className="project__showcase">
             <p>
-            Koulussa teimme simppelin tasohyppelypelin Unityn alkeiden opettelemiseen.
-            <br /><br />
-            Päädyin tekemään Super Mario Bros tapaisen pelin, jossa juostaan kenttä mahdollisimman nopeasti läpi tupakka-askeja keräten
-            <br /><br />
-            Vasemmassa ylänurkassa näet pelaajan elämät sekä kerättyjen askien määrän ja oikeassa ylänurkassa sekunttikellon
+              At school we made simple platformer game to learn Unity basics.
+              <br />
+              I decided to do Super Mario Bros style game were you run through level collection cigarette packs.
+              <br /><br />
+              Top left corner you see player lives and how many pack you collected and in top right timer
             <img src={one} alt="one" /> 
             <br />
-            Piirsin kaiken Aseprite-ohjelmalla. Kuvassa nostettu lippu, joka toimii checkpointtina.
+            I used Aseprite program to make sprites. Flag works as a checkpoint.
             <img src={two} alt="two" /> 
             <br />
             <img src={three} alt="three" /> 

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id='about'>
       <div className="titles">
-        <h2>Minä</h2>
+        <h2>About me</h2>
       </div>
       <div className="container about__container">
         <div className="about__me">
@@ -17,11 +17,11 @@ const About = () => {
 
         <div className="about__content">
           <p>
-          Opiskelen <span className="highlight">ohjelmistokehittäjäksi</span>  OSAO:lla. Opinnoissani suuntaan <span className="highlight">pelinkehittäjäksi</span>. Koulussa olemme tehneet tiimeissä 2D-pelejä, 3D-pelejä sekä perus VR-demoja.
-          <br /><br />
-          Vapaa-ajalla tykkään työskennellä omien projektieni parissa. Suurimmaksi osaksi työskentelen <span className="highlight">Unity (C#)</span> ja <span className="highlight">Godot (GDScript)</span> pelimoottoreilla. 3D-mallintamiseen käytän <span className="highlight">Blenderiä</span>. Pikseligrafiikkaan ja muuhun kuvanmuokkaukseen käytän <span className="highlight">Aseprite</span>, <span className="highlight">Photoshop</span> sekä <span className="highlight">Gimp</span> ohjelmistoja.
-          <br /><br />
-          Pidän ongelmanratkaisemista, mutta tiedän milloin kysyä apua. Vahvuuteni ovat rauhallisuus, periksiantamattomuus ja paineensietokyky. Tykkään myös oppia uusia asioita.
+            I'm studying <span className="highlight">software development</span> at OSAO Finland and in my studies I'm focusing on <span className="highlight">game development.</span> At school we have mostly worked on teams making 2D- and 3D games but we have also done some testing with VR.
+            <br /><br />
+            In my spare time I study and work on my personal projects. I mostly work on <span className="highlight">Unity (C#)</span> and <span className="highlight">Godot (GDScript)</span> game engines but I have also started studying <span className="highlight">Unreal Engine 5</span> and <span className="highlight">C++.</span> For 3D-modeling I use <span className="highlight">Blender</span> and for pixel graphics and other image editing I use <span className="highlight">Aseprite</span>, <span className="highlight">Photoshop</span> and <span className="highlight">Gimp.</span>
+            <br /><br />
+            My strengths in the gaming industry are calmness, pressure tolerance and that I'm a fast learner. I like problem solving but I'm not scared to ask for help.
           </p>
         </div>
       </div>
