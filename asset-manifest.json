@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.16c40d3d.css",
-    "main.js": "/my-react-portfolio/static/js/main.b9cbdb40.js",
+    "main.js": "/my-react-portfolio/static/js/main.2ac4e31a.js",
     "static/media/GrapplingHook.gif": "/my-react-portfolio/static/media/GrapplingHook.b4f64a628a7c61461d3e.gif",
     "static/media/AIStrafe.gif": "/my-react-portfolio/static/media/AIStrafe.22304f5ab58b619fc277.gif",
-    "static/media/RoguelikeDungeonGenerator.gif": "/my-react-portfolio/static/media/RoguelikeDungeonGenerator.a0586318450c519bfbe2.gif",
     "static/media/klikkerpeli.gif": "/my-react-portfolio/static/media/klikkerpeli.6e3064e59e0203b10671.gif",
     "static/media/ultimate.mp4": "/my-react-portfolio/static/media/ultimate.92f9b8400ae3f6671c31.mp4",
     "static/media/Roguelike.gif": "/my-react-portfolio/static/media/Roguelike.248c16801c6c31b2d41a.gif",
@@ -17,6 +16,7 @@
     "static/media/dark.png": "/my-react-portfolio/static/media/dark.ab46f2f63380bcd12663.png",
     "static/media/upgrade.png": "/my-react-portfolio/static/media/upgrade.6f3f70fdff1cd3de0331.png",
     "static/media/wideimg.png": "/my-react-portfolio/static/media/wideimg.1d311d1294452979f3ab.png",
+    "static/media/dungeongen.mp4": "/my-react-portfolio/static/media/dungeongen.c001630b9ae001e8cd38.mp4",
     "static/media/moving.png": "/my-react-portfolio/static/media/moving.e7a98657d1651f984662.png",
     "static/media/menu.png": "/my-react-portfolio/static/media/menu.df8833fc3b122172ae79.png",
     "static/media/AICoverAim.png": "/my-react-portfolio/static/media/AICoverAim.844fec057ffe75a8c543.png",
@@ -38,10 +38,10 @@
     "static/media/epichero.png": "/my-react-portfolio/static/media/epichero.a6eb7d25164964d3f938.png",
     "index.html": "/my-react-portfolio/index.html",
     "main.16c40d3d.css.map": "/my-react-portfolio/static/css/main.16c40d3d.css.map",
-    "main.b9cbdb40.js.map": "/my-react-portfolio/static/js/main.b9cbdb40.js.map"
+    "main.2ac4e31a.js.map": "/my-react-portfolio/static/js/main.2ac4e31a.js.map"
   },
   "entrypoints": [
     "static/css/main.16c40d3d.css",
-    "static/js/main.b9cbdb40.js"
+    "static/js/main.2ac4e31a.js"
   ]
 }
