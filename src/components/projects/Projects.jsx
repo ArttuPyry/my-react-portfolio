@@ -6,6 +6,7 @@ import IMGGameUA from '../../assets/game_untitled-android/UntitledSchoolProject.
 import IMGGameBW from '../../assets/game_black-and-white-roguelike/roguelikeimg.png'
 import IMGGameKiwi from '../../assets/game_mekiwi_vr/VRKiwiProto.png'
 import IMGGameHero from '../../assets/game_epic-hero/epichero.png'
+import IMGTFG from '../../assets/game_the_forgotten_guardian/theforgottenguardian.png'
 
 import Project1 from './modals/Project1'
 import Project2 from './modals/Project2'
@@ -13,35 +14,41 @@ import Project3 from './modals/Project3'
 import Project4 from './modals/Project4'
 import Project5 from './modals/Project5'
 import Project6 from './modals/Project6'
+import Project7 from './modals/Project7'
 
 const data = [
   {
-    id: 1,
+    id: 7,
+    image: IMGTFG,
+    title: 'The Forgotten Guardians',
+  },
+  {
+    id: 6,
     image: IMGGameHero,
     title: 'Epic Hero [Prototype]',
   },
   {
-    id: 2,
+    id: 5,
     image: IMGGameKiwi,
     title: 'VR Prototype',
   },
   {
-    id: 3,
+    id: 4,
     image: IMGGameBW,
     title: 'Untitled 2D Roguelike',
   },
   {
-    id: 4,
+    id: 3,
     image: IMGGameUA,
     title: 'Untitled Android Game',
   },
   {
-    id: 5,
+    id: 2,
     image: IMGGame3D,
     title: '3D-test-game',
   },
   {
-    id: 6,
+    id: 1,
     image: IMGGamePB,
     title: 'Prison break',
   }
@@ -49,12 +56,13 @@ const data = [
 
 const Projects = () => {
 
-  const [modal1, setModal1] = useState(false);
-  const [modal2, setModal2] = useState(false);
-  const [modal3, setModal3] = useState(false);
-  const [modal4, setModal4] = useState(false);
-  const [modal5, setModal5] = useState(false);
+  const [modal7, setModal7] = useState(false);
   const [modal6, setModal6] = useState(false);
+  const [modal5, setModal5] = useState(false);
+  const [modal4, setModal4] = useState(false);
+  const [modal3, setModal3] = useState(false);
+  const [modal2, setModal2] = useState(false);
+  const [modal1, setModal1] = useState(false);
 
   const toggleModal = (id) => {
     if (id === 1) {
@@ -74,6 +82,9 @@ const Projects = () => {
     }
     if (id === 6) {
       setModal6(!modal6)
+    }
+    if (id === 7) {
+      setModal7(!modal7)
     }
   }
 
@@ -98,43 +109,23 @@ const Projects = () => {
         }
       </div>
 
-      {modal1 && (
+      {modal7 && (
         <div className="modal">
-          <Project1>
-            <button className='btn btn-primary' onClick={() => toggleModal(1)}>
+          <Project7>
+            <button className='btn btn-primary' onClick={() => toggleModal(7)}>
               Close
             </button>
-          </Project1>
+          </Project7>
         </div>
       )}
 
-      {modal2 && (
+      {modal6 && (
         <div className="modal">
-            <Project2>
-            <button className='btn btn-primary' onClick={() => toggleModal(2)}>
+          <Project6>
+            <button className='btn btn-primary' onClick={() => toggleModal(6)}>
               Close
             </button>
-          </Project2>
-        </div>
-      )}
-
-      {modal3 && (
-        <div className="modal">
-            <Project3>
-            <button className='btn btn-primary' onClick={() => toggleModal(3)}>
-              Close
-            </button>
-          </Project3>
-        </div>
-      )}
-
-      {modal4 && (
-        <div className="modal">
-            <Project4>
-            <button className='btn btn-primary' onClick={() => toggleModal(4)}>
-              Close
-            </button>
-          </Project4>
+          </Project6>
         </div>
       )}
 
@@ -148,13 +139,43 @@ const Projects = () => {
         </div>
       )}
 
-      {modal6 && (
+      {modal4 && (
         <div className="modal">
-            <Project6>
-            <button className='btn btn-primary' onClick={() => toggleModal(6)}>
+            <Project4>
+            <button className='btn btn-primary' onClick={() => toggleModal(4)}>
               Close
             </button>
-          </Project6>
+          </Project4>
+        </div>
+      )}
+
+      {modal3 && (
+        <div className="modal">
+            <Project3>
+            <button className='btn btn-primary' onClick={() => toggleModal(3)}>
+              Close
+            </button>
+          </Project3>
+        </div>
+      )}
+
+      {modal2 && (
+        <div className="modal">
+            <Project2>
+            <button className='btn btn-primary' onClick={() => toggleModal(2)}>
+              Close
+            </button>
+          </Project2>
+        </div>
+      )}
+
+      {modal1 && (
+        <div className="modal">
+            <Project1>
+            <button className='btn btn-primary' onClick={() => toggleModal(1)}>
+              Close
+            </button>
+          </Project1>
         </div>
       )}
 

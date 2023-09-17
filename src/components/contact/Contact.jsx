@@ -36,12 +36,12 @@ const Contact = () => {
           <article className="contact__option">
             <h4>Linkedin</h4>
             <h5>Arttu Viitajylhä</h5>
-            <a href="https://www.linkedin.com/in/arttu-viitajylh%C3%A4-3a186b222/">Connect with me!</a>
+            <a href="https://www.linkedin.com/in/arttu-viitajylha/">Connect with me!</a>
           </article>
 
           <article className="contact__option">
             <h4>Discord</h4>
-            <h5>orc hugs#8207</h5>
+            <h5>orc_hugs</h5>
             <p>Message me!</p>
           </article>
         </div>

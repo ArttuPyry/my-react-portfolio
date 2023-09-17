@@ -1,10 +1,14 @@
 import React from 'react'
 import './projectmodal.css'
-import RoguelikeDungeonGenerator from '../../../assets/game_black-and-white-roguelike/RoguelikeDungeonGenerator.gif'
-import Roguelike from '../../../assets/game_black-and-white-roguelike/Roguelike.gif'
-import editor from '../../../assets/game_black-and-white-roguelike/editor.png'
+import './projectfour.css'
+import klikkerpeli from '../../../assets/game_untitled-android/klikkerpeli.gif'
+import screenshotone from '../../../assets/game_untitled-android/screenshot1.png'
+import screenshottwo from '../../../assets/game_untitled-android/screenshot2.png'
+import screenshotthree from '../../../assets/game_untitled-android/screenshot3.png'
+import screenshotfour from '../../../assets/game_untitled-android/screenshot4.png'
+import screenshotfive from '../../../assets/game_untitled-android/screenshot5.png'
 
-const Project3 = ({ children }) => {
+const Project4 = ({ children }) => {
   return (
     <section className="modals">
       <div className="modalbase">
@@ -14,42 +18,48 @@ const Project3 = ({ children }) => {
          </div>
 
         <div className="project__titles">
-         <h2>2D Roguelike</h2>
+         <h2>Untitled Android game</h2>
         </div>
 
         <div className="modal__content">
         <ul className="tech__info">
             <li>
-              <p>- Godot</p>
+              <p>- Unity</p>
             </li>
             <li>
-              <p>- GDScript (Python)</p>
+              <p>- C#</p>
             </li>
             <li>
-              <p>- PC</p>
+              <p>- Mobile</p>
             </li>
             <li>
               <p>- 2D</p>
             </li>
             <li>
-              <p>- Roguelike</p>
+              <p>- Clicker</p>
             </li>
             <li>
-              <p>- Bullet hell</p>
+              <p>- Singleplayer</p>
             </li>
           </ul>
 
-          <div className="project__showcase">
+          <div className="project__showcase project__showcase_long">
             <p>
-              In my spare time I'm working on roguelike game. Players task is to go through randomly generated dungeon.
-              <br /><br />
-              test dungeon generator
-              <img src={RoguelikeDungeonGenerator} alt="RoguelikeDungeonGenerator" />
-              Floors are filled with different obstacles and enemies. Every floor will contain boss room and item room.
-              <br /><br />
-              For game art I went for 1Bit to keep it simple
-              <img src={Roguelike} alt="Roguelike" />
-              <img src={editor} alt="editor" />
+              For this group project we made an Android game.
+              <br />
+              I programmed the combat system, the shop, the inventory and most menus. I also made most of the pixel art.
+              <br /> <br />
+              In game you have to get through three levels of fighting against different enemies and bosses. Enemies and bosses drop different loot.
+              <br /> <br />
+              Combat is fairly simple: Enemies attack automatically and player must press buttons to attack but some more powerfull attacks cost mana.
+              <br /> <br />
+              Player can buy potions and new gear from shop. Player can use potions to restore mana and health.
+              <img src={klikkerpeli} alt="klikkerpeli" /> 
+            <img src={screenshotfive} alt="screenshotfive" /> 
+            <img src={screenshotthree} alt="screenshotthree" /> 
+            <img src={screenshottwo} alt="screenshottwo" /> 
+            <img src={screenshotfour} alt="screenshotfour" /> 
+            <img src={screenshotone} alt="screenshotone" />  
             </p>
           </div>
         </div>
@@ -58,4 +68,4 @@ const Project3 = ({ children }) => {
   )
 }
 
-export default Project3
+export default Project4

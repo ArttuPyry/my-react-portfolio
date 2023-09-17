@@ -50,11 +50,11 @@ header {
     }
 
     .me {
-        width: 35rem;
-        height: 35rem;
-        padding-top: 5rem;
+        width: 26rem;
+        height: 26rem;
+        padding-top: 0rem;
         position: absolute;
-        left: calc(50% - 17.5rem);
+        left: calc(50% - 13rem);
     }
 }
 

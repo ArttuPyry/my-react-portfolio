@@ -1,16 +1,3 @@
-.about__title {
-    padding-top: 2rem;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.about__title h2{
-    font-size: 2rem;
-    color: var(--color-primary);
-}
-
 .about__container{
     display: flex;
     text-align: center;
@@ -19,7 +6,7 @@
     position: relative;
     justify-content: center;
     gap: 15rem;
-    padding-top: 14.5rem;
+    padding-top: 15.3rem;
 }
 
 .about__me-image{
@@ -41,12 +28,12 @@
 /* ============================== 4K SCREENS ============================== */
 @media screen and (min-width: 3840px){
     .about__container {
-        padding-top: 32rem;
+        padding-top: 30rem;
     }
 
     .about__content p {
         max-width: 80rem;
-        font-size: 2.5rem;
+        font-size: 3.2rem;
     }
 
     .about__me-image{
@@ -56,9 +43,9 @@
 }
 
 /* ============================== 2K SCREENS (1440p) ============================== */
-@media screen and (min-width: 2560px) and (max-width: 3839px){
+@media screen and (min-width: 2048px) and (max-width: 3839px){
     .about__container {
-        padding-top: 21rem;
+        padding-top: 22rem;
     }
 
     .about__content p {
@@ -71,6 +58,7 @@
 @media screen and (max-width: 1024px) {
     .about__container {
         display: block;
+        padding-top: 7rem;
     }
 
     .about__content {
@@ -83,30 +71,26 @@
     }
 
     .about__me {
-        padding: 7rem 0rem 2rem 0rem;
+        padding: 0rem 0rem 4rem 0rem;
         display: flex;
         justify-content: center;
     }
 
     .about__me-image{
-        width: 24rem;
-        height: 24rem;
+        width: 26rem;
+        height: 26rem;
     }
 }
 
-/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================== */
-@media screen and (max-width: 1024px) {
+/* ============================== 720p ============================== */
+@media screen and (max-width: 1280px) {
     .about__container{
+        gap: 10rem;
         padding-top: 9rem;
     }
 
-    .about__me{
-        padding: 0rem 0rem 4rem 0rem;
-    }
-
-    .about__me-image{
-        width: 32rem;
-        height: 32rem;
+    .about__content p {
+        font-size: 1.2rem;
     }
 }
 

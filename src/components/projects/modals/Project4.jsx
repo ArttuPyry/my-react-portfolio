@@ -1,14 +1,10 @@
 import React from 'react'
 import './projectmodal.css'
-import './projectfour.css'
-import klikkerpeli from '../../../assets/game_untitled-android/klikkerpeli.gif'
-import screenshotone from '../../../assets/game_untitled-android/screenshot1.png'
-import screenshottwo from '../../../assets/game_untitled-android/screenshot2.png'
-import screenshotthree from '../../../assets/game_untitled-android/screenshot3.png'
-import screenshotfour from '../../../assets/game_untitled-android/screenshot4.png'
-import screenshotfive from '../../../assets/game_untitled-android/screenshot5.png'
+import dungeongen from '../../../assets/game_black-and-white-roguelike/dungeongen.mp4'
+import Roguelike from '../../../assets/game_black-and-white-roguelike/Roguelike.gif'
+import editor from '../../../assets/game_black-and-white-roguelike/editor.png'
 
-const Project4 = ({ children }) => {
+const Project3 = ({ children }) => {
   return (
     <section className="modals">
       <div className="modalbase">
@@ -18,48 +14,42 @@ const Project4 = ({ children }) => {
          </div>
 
         <div className="project__titles">
-         <h2>Untitled Android game</h2>
+         <h2>2D Roguelike</h2>
         </div>
 
         <div className="modal__content">
         <ul className="tech__info">
             <li>
-              <p>- Unity</p>
+              <p>- Godot</p>
             </li>
             <li>
-              <p>- C#</p>
+              <p>- GDScript (Python)</p>
             </li>
             <li>
-              <p>- Mobile</p>
+              <p>- PC</p>
             </li>
             <li>
               <p>- 2D</p>
             </li>
             <li>
-              <p>- Clicker</p>
+              <p>- Roguelike</p>
             </li>
             <li>
-              <p>- Singleplayer</p>
+              <p>- Bullet hell</p>
             </li>
           </ul>
 
-          <div className="project__showcase project__showcase_long">
+          <div className="project__showcase">
             <p>
-              For this group project we made an Android game.
-              <br />
-              I programmed the combat system, the shop, the inventory and most menus. I also made most of the pixel art.
-              <br /> <br />
-              In game you have to get through three levels of fighting against different enemies and bosses. Enemies and bosses drop different loot.
-              <br /> <br />
-              Combat is fairly simple: Enemies attack automatically and player must press buttons to attack but some more powerfull attacks cost mana.
-              <br /> <br />
-              Player can buy potions and new gear from shop. Player can use potions to restore mana and health.
-              <img src={klikkerpeli} alt="klikkerpeli" /> 
-            <img src={screenshotfive} alt="screenshotfive" /> 
-            <img src={screenshotthree} alt="screenshotthree" /> 
-            <img src={screenshottwo} alt="screenshottwo" /> 
-            <img src={screenshotfour} alt="screenshotfour" /> 
-            <img src={screenshotone} alt="screenshotone" />  
+              In my spare time I'm working on roguelike game. Players task is to go through randomly generated dungeon.
+              <br /><br />
+              test dungeon generator
+              <video className='video' src={dungeongen} autoPlay loop muted/>
+              Floors are filled with different obstacles and enemies. Every floor will contain boss room and item room.
+              <br /><br />
+              For game art I went for 1Bit to keep it simple
+              <img src={Roguelike} alt="Roguelike" />
+              <img src={editor} alt="editor" />
             </p>
           </div>
         </div>
@@ -68,4 +58,4 @@ const Project4 = ({ children }) => {
   )
 }
 
-export default Project4
+export default Project3

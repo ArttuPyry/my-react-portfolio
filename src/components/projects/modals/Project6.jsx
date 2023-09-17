@@ -1,10 +1,13 @@
 import React from 'react'
 import './projectmodal.css'
-import one from '../../../assets/game_prisonbreak/one.png'
-import two from '../../../assets/game_prisonbreak/two.png'
-import three from '../../../assets/game_prisonbreak/three.png'
 
-const Project6 = ({ children }) => {
+import town from '../../../assets/game_epic-hero/town.png'  
+import map from '../../../assets/game_epic-hero/map.png' 
+import menu from '../../../assets/game_epic-hero/menu.png' 
+import upgrade from '../../../assets/game_epic-hero/upgrade.png' 
+
+
+const Project1 = ({ children }) => {
   return (
     <section className="modals">
       <div className="modalbase">
@@ -14,7 +17,7 @@ const Project6 = ({ children }) => {
          </div>
 
         <div className="project__titles">
-         <h2>Prison break</h2>
+         <h2>Epic Hero</h2>
         </div>
 
         <div className="modal__content">
@@ -29,26 +32,35 @@ const Project6 = ({ children }) => {
               <p>- PC</p>
             </li>
             <li>
-              <p>- 2D</p>
+              <p>- 3D</p>
             </li>
             <li>
-              <p>- Platformer</p>
+              <p>- Clicker</p>
+            </li>
+            <li>
+              <p>- Singleplayer</p>
             </li>
           </ul>
 
           <div className="project__showcase">
             <p>
-              At school we made simple platformer game to learn Unity basics.
+              In game production course every team was given an idea and rules for a game but we were allowed to change things. We were to make a clicker/idle game were you play as a squire.
+              I worked with <span className="highlight">graphics</span> and <span className="highlight">code</span> in this project.
+              <br /> <br />   
+              We split game into two parts: city and map. In city you can upgrade buildings which increases passive material gain and with materials you upgrade the knights gear.
+              In map you can send the knight for an adventure which gives even more materials.
+              <br /> <br />
+              City:
+              <img src={town} alt="town" />
               <br />
-              I decided to do Super Mario Bros style game were you run through level collection cigarette packs.
-              <br /><br />
-              Top left corner you see player lives and how many pack you collected and in top right timer
-            <img src={one} alt="one" /> 
-            <br />
-            I used Aseprite program to make sprites. Flag works as a checkpoint.
-            <img src={two} alt="two" /> 
-            <br />
-            <img src={three} alt="three" /> 
+              Map:
+              <img src={map} alt="map" />
+              <br />
+              Knight upgrade menu:
+              <img src={upgrade} alt="upgrade" />
+              <br />
+              Mainmenu:
+              <img src={menu} alt="menu" />
             </p>
           </div>
         </div>
@@ -57,4 +69,4 @@ const Project6 = ({ children }) => {
   )
 }
 
-export default Project6
+export default Project1

@@ -1,5 +1,5 @@
 .contact__container {
-    padding-top: 15rem;
+    padding-top: 13rem;
     display: flex;
     text-align: center;
     align-items: center;
@@ -25,7 +25,6 @@
 .contact__option {
     background: var(--color-bg-variant-light);
     padding: 1.2rem;
-    border-radius: 1.2rem;
     text-align: center;
     border: 2px solid var(--color-primary);
     transition: var(--transition);
@@ -55,7 +54,6 @@ form {
 input, textarea {
     width: 100%;
     padding: 1.5rem;
-    border-radius: 0.6rem;
     border: 2px solid var(--color-bg-variant);
     resize: none;
 }
@@ -67,30 +65,43 @@ input, textarea {
     }
 
     .contact__option a{
-        font-size: 1.9rem;
+        font-size: 3rem;
     }
 
     .contact__option p{
-        font-size: 1.9rem;
+        font-size: 3rem;
     }
 
     form ::placeholder{
-        font-size: 1.4rem;
+        font-size: 3rem;
     }
 
     form, textarea {
-        font-size: 1.4rem;
+        font-size: 3rem;
     }
 
     form, input {
-        font-size: 1.4rem;
+        font-size: 3rem;
     }
 }
 
 /* ============================== 2K SCREENS (1440p) ============================== */
-@media screen and (min-width: 2560px) and (max-width: 3839px){
+@media screen and (min-width: 2048px) and (max-width: 3839px){
     .contact__container {
         padding-top: 23rem;
+    }
+}
+
+/* ============================== 720p ============================== */
+@media screen and (max-width: 1280px) {
+    .contact__container {
+        padding-top: 6rem;
+    }
+
+    .container.contact__container {
+        width: 58%;
+        display: grid;
+        grid-template-columns: 42% 58%;
     }
 }
 

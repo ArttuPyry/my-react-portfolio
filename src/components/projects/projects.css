@@ -1,18 +1,17 @@
 .projects__container {
-    padding-top: 7rem;
+    padding-top: 9.3rem;
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem;
-    max-width: 50%;
+    max-width: 65%;
 }
 
 .project__item {
     background: var(--color-bg-variant);
-    border-radius: 1rem;
     align-items: center;
     border: 2px solid transparent;
-    width: 16.875rem;
+    width: 14.5rem;
     transition: var(--transition)
 }
 
@@ -23,41 +22,67 @@
 }
 
 .project__item-image {
-    border-radius: 0.83rem;
     overflow: hidden;
 }
 
 .project__item h3{
     text-align: center;
+    font-size: 1.2rem;
     margin: 0.6rem 0 0.6rem;
 }
 
 /* ============================== 4K SCREENS ============================== */
 @media screen and (min-width: 3840px){
     .projects__container{
-        max-width: 70%;
+        padding-top: 18rem;
+        max-width: 100%;
     }
     .project__item{
-        width: 47rem;
+        width: 41rem;
+    }
+
+    .project__item h3{
+        font-size: 3rem;
     }
 }
 
 /* ============================== 2K SCREENS (1440p) ============================== */
-@media screen and (min-width: 2560px) and (max-width: 3839px){
+@media screen and (min-width: 2048px) and (max-width: 3839px){
     .projects__container{
-        max-width: 60%;
+        max-width: 90%;
     }
-    .project__item{
-        width: 27rem;
+    .project__item {
+        width: 25rem;
+    }
+}
+
+/* ============================== 720p ============================== */
+@media screen and (max-width: 1280px) {
+    .projects__container {
+        gap: 2rem;
+    }
+    .project__item {
+        width: 11rem;
+    }
+    .project__item h3{
+        text-align: center;
+        font-size: 0.8rem;
+        margin: 0.6rem 0 0.6rem;
+    }
+    .projects__container {
+        max-width: 70%;
     }
 }
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px){
+    .project__item {
+        width: 16rem;
+    }
     .projects__container {
         grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-        max-width: 70%;
+        gap: 1rem;
+        max-width: 52%;
     }
 }
 
@@ -67,5 +92,6 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         padding-top: 7.5rem;
+        max-width: 100%;
     }
 }

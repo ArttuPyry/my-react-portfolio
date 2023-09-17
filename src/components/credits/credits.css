@@ -1,0 +1,26 @@
+.credits__container {
+    height: 5rem;
+    min-width: 100%;
+    background-color: var(--color-bg-variant-light);
+}
+
+.credit__content {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+}
+
+/* ============================== 4K SCREENS ============================== */
+@media screen and (min-width: 3840px){
+    .credits__container {
+        height: 10rem;
+        width: 100%;
+        background-color: var(--color-bg-variant-light);
+    }
+    
+    .credit__content {
+        font-size: 2.4rem;
+        padding-left: 2rem;
+        padding-top: 0.7rem;
+    }
+}

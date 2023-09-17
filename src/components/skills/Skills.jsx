@@ -1,5 +1,6 @@
 import React from 'react'
 import './skills.css'
+import skillsimg from '../../assets/skillsimg.png'
 
 const Skills = () => {
   return (
@@ -7,8 +8,9 @@ const Skills = () => {
       <div className="titles">
       <h2>Skills</h2>
       </div>
-
-      <div className="container skills__container">
+      
+      <div className='container skillsdiv'>
+      <div className="skills__container">
         <article className="skills">
           <div className="skills__header">
             <h3>Programming languages</h3>
@@ -60,19 +62,13 @@ const Skills = () => {
 
           <ul className="skills__list">
             <li>
-              <p>- Visual Studio Code</p>
+              <p>- Visual Studio & VSCode</p>
             </li>
             <li>
-              <p>- Visual Studio 2019/2022</p>
+              <p>- Git</p>
             </li>
             <li>
-              <p>- GitHub</p>
-            </li>
-            <li>
-              <p>- Git Extensions</p>
-            </li>
-            <li>
-              <p>- Git Desktop</p>
+              <p>- BitBucket</p>
             </li>
             <li>
               <p>- Trello</p>
@@ -81,7 +77,7 @@ const Skills = () => {
               <p>- HacknPlan</p>
             </li>
             <li>
-              <p>- WinSCP</p>
+              <p>- MySQL</p>
             </li>
           </ul>
         </article>
@@ -114,8 +110,14 @@ const Skills = () => {
           </ul>
         </article>
         {/* END OF IMAGE AND 3D MODELING */}
-        
       </div>
+
+      <div className='skillsimg'>
+          <img src={skillsimg} alt="skillsimg" />
+        </div>
+
+      </div>
+
     </section>
   )
 }
