@@ -1,6 +1,6 @@
 {
-  "homepage": "https://arttupyry.github.io/portfolio/",
-  "name": "portfolio",
+  "homepage": "https://arttupyry.github.io/my-react-portfolio/",
+  "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
