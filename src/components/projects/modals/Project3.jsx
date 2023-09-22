@@ -8,7 +8,7 @@ import screenshotthree from '../../../assets/game_untitled-android/screenshot3.p
 import screenshotfour from '../../../assets/game_untitled-android/screenshot4.png'
 import screenshotfive from '../../../assets/game_untitled-android/screenshot5.png'
 
-const Project4 = ({ children }) => {
+const Project3 = ({ children }) => {
   return (
     <section className="modals">
       <div className="modalbase">
@@ -68,4 +68,4 @@ const Project4 = ({ children }) => {
   )
 }
 
-export default Project4
+export default Project3

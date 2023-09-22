@@ -6,7 +6,7 @@ import dark from '../../../assets/game_3Dtest/dark.png'
 import crate from '../../../assets/game_3Dtest/crate.png'
 import moving from '../../../assets/game_3Dtest/moving.png'
 
-const Project5 = ({ children }) => {
+const Project2 = ({ children }) => {
   return (
     <section className="modals">
       <div className="modalbase">
@@ -60,4 +60,4 @@ const Project5 = ({ children }) => {
   )
 }
 
-export default Project5
+export default Project2

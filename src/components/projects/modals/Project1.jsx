@@ -4,7 +4,7 @@ import one from '../../../assets/game_prisonbreak/one.png'
 import two from '../../../assets/game_prisonbreak/two.png'
 import three from '../../../assets/game_prisonbreak/three.png'
 
-const Project6 = ({ children }) => {
+const Project1 = ({ children }) => {
   return (
     <section className="modals">
       <div className="modalbase">
@@ -57,4 +57,4 @@ const Project6 = ({ children }) => {
   )
 }
 
-export default Project6
+export default Project1

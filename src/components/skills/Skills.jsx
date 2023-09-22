@@ -74,7 +74,7 @@ const Skills = () => {
               <p>- Trello</p>
             </li>
             <li>
-              <p>- HacknPlan</p>
+              <p>- Hack'n'Plan</p>
             </li>
             <li>
               <p>- MySQL</p>

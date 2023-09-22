@@ -4,7 +4,7 @@ import dungeongen from '../../../assets/game_black-and-white-roguelike/dungeonge
 import Roguelike from '../../../assets/game_black-and-white-roguelike/Roguelike.gif'
 import editor from '../../../assets/game_black-and-white-roguelike/editor.png'
 
-const Project3 = ({ children }) => {
+const Project4 = ({ children }) => {
   return (
     <section className="modals">
       <div className="modalbase">
@@ -58,4 +58,4 @@ const Project3 = ({ children }) => {
   )
 }
 
-export default Project3
+export default Project4

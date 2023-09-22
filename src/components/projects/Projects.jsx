@@ -7,6 +7,8 @@ import IMGGameBW from '../../assets/game_black-and-white-roguelike/roguelikeimg.
 import IMGGameKiwi from '../../assets/game_mekiwi_vr/VRKiwiProto.png'
 import IMGGameHero from '../../assets/game_epic-hero/epichero.png'
 import IMGTFG from '../../assets/game_the_forgotten_guardian/theforgottenguardian.png'
+import GIG from '../../assets/game_idea_generator/GIG.png'
+import fpsdc from '../../assets/game_dungeon_crawler/fpsdc.png'
 
 import Project1 from './modals/Project1'
 import Project2 from './modals/Project2'
@@ -15,22 +17,34 @@ import Project4 from './modals/Project4'
 import Project5 from './modals/Project5'
 import Project6 from './modals/Project6'
 import Project7 from './modals/Project7'
+import Project8 from './modals/Project8'
+import Project9 from './modals/Project9'
 
 const data = [
   {
-    id: 7,
+    id: 9,
+    image: fpsdc,
+    title: 'Dungeon Crawler [WIP]',
+  },
+  {
+    id: 8,
     image: IMGTFG,
     title: 'The Forgotten Guardians',
   },
   {
-    id: 6,
+    id: 7,
     image: IMGGameHero,
     title: 'Epic Hero [Prototype]',
   },
   {
-    id: 5,
+    id: 6,
     image: IMGGameKiwi,
     title: 'VR Prototype',
+  },
+  {
+    id: 5,
+    image: GIG,
+    title: 'Game Idea Generator',
   },
   {
     id: 4,
@@ -56,6 +70,8 @@ const data = [
 
 const Projects = () => {
 
+  const [modal9, setModal9] = useState(false);
+  const [modal8, setModal8] = useState(false);
   const [modal7, setModal7] = useState(false);
   const [modal6, setModal6] = useState(false);
   const [modal5, setModal5] = useState(false);
@@ -86,6 +102,12 @@ const Projects = () => {
     if (id === 7) {
       setModal7(!modal7)
     }
+    if (id === 8) {
+      setModal8(!modal8)
+    }
+    if (id === 9) {
+      setModal9(!modal9)
+    }
   }
 
   return (
@@ -108,6 +130,26 @@ const Projects = () => {
           })
         }
       </div>
+
+      {modal9 && (
+        <div className="modal">
+          <Project9>
+            <button className='btn btn-primary' onClick={() => toggleModal(9)}>
+              Close
+            </button>
+          </Project9>
+        </div>
+      )}
+
+      {modal8 && (
+        <div className="modal">
+          <Project8>
+            <button className='btn btn-primary' onClick={() => toggleModal(8)}>
+              Close
+            </button>
+          </Project8>
+        </div>
+      )}
 
       {modal7 && (
         <div className="modal">
