@@ -64,12 +64,12 @@ const Project9 = ({ children }) => {
                 <video className='video' src={movement} autoPlay loop muted/>
                 <br />
                 Godot's basic pathfinding was a no-go because it doesn't support tile/grid-based movement. So, I went with AStar 3D pathfinding. <br />
-                Godot's A* doesn't have partial pathing, and disabling points with 'set_point_disabled' made the game crash if enemies blocked the path of other enemies.
+                Godot's A* doesn't have partial pathing, and disabling points with 'set_point_disabled' made the game crash if enemies blocked the path of other enemies because A*s get_point_path didn't know what to do.
                 I solved this problem with 'set_point_weight_scale', increasing points weight makes enemies go around each other if there is enough space and when the path is blocked, they stack up on one tile.
                 But with a little check, I made enemies go into an idle state if they are about to step onto an already in-use tile.
                 <video className='video' src={pathfind} autoPlay loop muted/>
                 <br />
-                There's still a lot of work to be done with enemies, such as proper turning when moving, attacks, stats, and a few bugs that need to be fixed. But I'm getting good progress and I'm having fun :)
+                There's still a lot of work to be done with enemies, such as attack state, stats and loot drops. But I'm getting good progress and I'm learning a lot.
             </p>
           </div>
         </div>
