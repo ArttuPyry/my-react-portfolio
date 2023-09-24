@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.16c40d3d.css",
-    "main.js": "/my-react-portfolio/static/js/main.fdb55c0d.js",
+    "main.js": "/my-react-portfolio/static/js/main.3b8a1d47.js",
     "static/media/GrapplingHook.gif": "/my-react-portfolio/static/media/GrapplingHook.b4f64a628a7c61461d3e.gif",
     "static/media/AIStrafe.gif": "/my-react-portfolio/static/media/AIStrafe.22304f5ab58b619fc277.gif",
     "static/media/movement.mp4": "/my-react-portfolio/static/media/movement.11bfa1bc83e34db5c19f.mp4",
     "static/media/klikkerpeli.gif": "/my-react-portfolio/static/media/klikkerpeli.6e3064e59e0203b10671.gif",
     "static/media/ultimate.mp4": "/my-react-portfolio/static/media/ultimate.92f9b8400ae3f6671c31.mp4",
     "static/media/Roguelike.gif": "/my-react-portfolio/static/media/Roguelike.248c16801c6c31b2d41a.gif",
+    "static/media/epic_fight.mp4": "/my-react-portfolio/static/media/epic_fight.b4152e59ed87eff0c39e.mp4",
     "static/media/currency.mp4": "/my-react-portfolio/static/media/currency.13e7cd09c11c2a75fd35.mp4",
     "static/media/CV_Arttu Viitajylha_ENG.pdf": "/my-react-portfolio/static/media/CV_Arttu Viitajylha_ENG.c5958f4e78898ac33353.pdf",
     "static/media/ded.png": "/my-react-portfolio/static/media/ded.76d08a976247a1e57118.png",
@@ -45,10 +46,10 @@
     "static/media/hnp.PNG": "/my-react-portfolio/static/media/hnp.a4f1e61b717d1978e7e3.PNG",
     "index.html": "/my-react-portfolio/index.html",
     "main.16c40d3d.css.map": "/my-react-portfolio/static/css/main.16c40d3d.css.map",
-    "main.fdb55c0d.js.map": "/my-react-portfolio/static/js/main.fdb55c0d.js.map"
+    "main.3b8a1d47.js.map": "/my-react-portfolio/static/js/main.3b8a1d47.js.map"
   },
   "entrypoints": [
     "static/css/main.16c40d3d.css",
-    "static/js/main.fdb55c0d.js"
+    "static/js/main.3b8a1d47.js"
   ]
 }
