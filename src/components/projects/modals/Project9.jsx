@@ -3,6 +3,7 @@ import './projectmodal.css'
 import hnp from '../../../assets/game_dungeon_crawler/hnp.PNG'
 import movement from '../../../assets/game_dungeon_crawler/movement.mp4'
 import pathfind from '../../../assets/game_dungeon_crawler/pathfind.mp4'
+import epicfight from '../../../assets/game_dungeon_crawler/epic_fight.mp4'
 
 const Project9 = ({ children }) => {
   return (
@@ -69,7 +70,8 @@ const Project9 = ({ children }) => {
                 But with a little check, I made enemies go into an idle state if they are about to step onto an already in-use tile.
                 <video className='video' src={pathfind} autoPlay loop muted/>
                 <br />
-                There's still a lot of work to be done with enemies, such as attack state, stats and loot drops. But I'm getting good progress and I'm learning a lot.
+                Working on attack state! I'm getting good progress and I'm learning a lot.
+                <video className='video' src={epicfight} autoPlay loop muted/>
             </p>
           </div>
         </div>
