@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.16c40d3d.css",
-    "main.js": "/my-react-portfolio/static/js/main.3b8a1d47.js",
+    "main.css": "/my-react-portfolio/static/css/main.17f8d1cd.css",
+    "main.js": "/my-react-portfolio/static/js/main.bb59fbfd.js",
     "static/media/GrapplingHook.gif": "/my-react-portfolio/static/media/GrapplingHook.b4f64a628a7c61461d3e.gif",
     "static/media/AIStrafe.gif": "/my-react-portfolio/static/media/AIStrafe.22304f5ab58b619fc277.gif",
     "static/media/movement.mp4": "/my-react-portfolio/static/media/movement.11bfa1bc83e34db5c19f.mp4",
@@ -13,7 +13,12 @@
     "static/media/CV_Arttu Viitajylha_ENG.pdf": "/my-react-portfolio/static/media/CV_Arttu Viitajylha_ENG.c5958f4e78898ac33353.pdf",
     "static/media/ded.png": "/my-react-portfolio/static/media/ded.76d08a976247a1e57118.png",
     "static/media/pathfind.mp4": "/my-react-portfolio/static/media/pathfind.cb2a4ee8ee30d97172b7.mp4",
+    "static/media/sfdifficulty.png": "/my-react-portfolio/static/media/sfdifficulty.67cfa02dee7d77455a96.png",
+    "static/media/sfmenu.png": "/my-react-portfolio/static/media/sfmenu.d09ae9e37fd6e1c22552.png",
     "static/media/robot.png": "/my-react-portfolio/static/media/robot.8dae0d90a0c22766e9f1.png",
+    "static/media/sfstun.png": "/my-react-portfolio/static/media/sfstun.5c3c6a8073aeffcfa795.png",
+    "static/media/sfcutscene.png": "/my-react-portfolio/static/media/sfcutscene.2d6711c3818f5594af0c.png",
+    "static/media/sfthrow.png": "/my-react-portfolio/static/media/sfthrow.f1748552d49de353469d.png",
     "static/media/crate.png": "/my-react-portfolio/static/media/crate.1df38446bfeb220f1a78.png",
     "static/media/town.png": "/my-react-portfolio/static/media/town.3cce40e7796f015b62be.png",
     "static/media/dark.png": "/my-react-portfolio/static/media/dark.ab46f2f63380bcd12663.png",
@@ -23,6 +28,7 @@
     "static/media/moving.png": "/my-react-portfolio/static/media/moving.e7a98657d1651f984662.png",
     "static/media/fpsdc.png": "/my-react-portfolio/static/media/fpsdc.f9c3d8d8c6933d4838a6.png",
     "static/media/menu.png": "/my-react-portfolio/static/media/menu.df8833fc3b122172ae79.png",
+    "static/media/snowfight3d.png": "/my-react-portfolio/static/media/snowfight3d.2a8c0aa3e8a4563088f6.png",
     "static/media/AICoverAim.png": "/my-react-portfolio/static/media/AICoverAim.844fec057ffe75a8c543.png",
     "static/media/VRKiwiProto.png": "/my-react-portfolio/static/media/VRKiwiProto.a360c1bd5e9195a67560.png",
     "static/media/map.png": "/my-react-portfolio/static/media/map.7e00995550587f96224f.png",
@@ -45,11 +51,11 @@
     "static/media/epichero.png": "/my-react-portfolio/static/media/epichero.a6eb7d25164964d3f938.png",
     "static/media/hnp.PNG": "/my-react-portfolio/static/media/hnp.a4f1e61b717d1978e7e3.PNG",
     "index.html": "/my-react-portfolio/index.html",
-    "main.16c40d3d.css.map": "/my-react-portfolio/static/css/main.16c40d3d.css.map",
-    "main.3b8a1d47.js.map": "/my-react-portfolio/static/js/main.3b8a1d47.js.map"
+    "main.17f8d1cd.css.map": "/my-react-portfolio/static/css/main.17f8d1cd.css.map",
+    "main.bb59fbfd.js.map": "/my-react-portfolio/static/js/main.bb59fbfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c40d3d.css",
-    "static/js/main.3b8a1d47.js"
+    "static/css/main.17f8d1cd.css",
+    "static/js/main.bb59fbfd.js"
   ]
 }
