@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.17f8d1cd.css",
-    "main.js": "/my-react-portfolio/static/js/main.bb59fbfd.js",
+    "main.css": "/my-react-portfolio/static/css/main.ab6d46ff.css",
+    "main.js": "/my-react-portfolio/static/js/main.d092cc13.js",
     "static/media/GrapplingHook.gif": "/my-react-portfolio/static/media/GrapplingHook.b4f64a628a7c61461d3e.gif",
     "static/media/AIStrafe.gif": "/my-react-portfolio/static/media/AIStrafe.22304f5ab58b619fc277.gif",
     "static/media/movement.mp4": "/my-react-portfolio/static/media/movement.11bfa1bc83e34db5c19f.mp4",
@@ -51,11 +51,11 @@
     "static/media/epichero.png": "/my-react-portfolio/static/media/epichero.a6eb7d25164964d3f938.png",
     "static/media/hnp.PNG": "/my-react-portfolio/static/media/hnp.a4f1e61b717d1978e7e3.PNG",
     "index.html": "/my-react-portfolio/index.html",
-    "main.17f8d1cd.css.map": "/my-react-portfolio/static/css/main.17f8d1cd.css.map",
-    "main.bb59fbfd.js.map": "/my-react-portfolio/static/js/main.bb59fbfd.js.map"
+    "main.ab6d46ff.css.map": "/my-react-portfolio/static/css/main.ab6d46ff.css.map",
+    "main.d092cc13.js.map": "/my-react-portfolio/static/js/main.d092cc13.js.map"
   },
   "entrypoints": [
-    "static/css/main.17f8d1cd.css",
-    "static/js/main.bb59fbfd.js"
+    "static/css/main.ab6d46ff.css",
+    "static/js/main.d092cc13.js"
   ]
 }
