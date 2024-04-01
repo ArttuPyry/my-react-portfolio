@@ -1,6 +1,5 @@
 import React from 'react'
 import './projectmodal.css'
-import hnp from '../../../assets/game_dungeon_crawler/hnp.PNG'
 import movement from '../../../assets/game_dungeon_crawler/movement.mp4'
 import pathfind from '../../../assets/game_dungeon_crawler/pathfind.mp4'
 import epicfight from '../../../assets/game_dungeon_crawler/epic_fight.mp4'
