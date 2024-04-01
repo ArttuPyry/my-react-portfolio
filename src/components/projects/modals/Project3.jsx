@@ -2,11 +2,11 @@ import React from 'react'
 import './projectmodal.css'
 import './projectfour.css'
 import klikkerpeli from '../../../assets/game_untitled-android/klikkerpeli.gif'
-import screenshotone from '../../../assets/game_untitled-android/screenshot1.png'
-import screenshottwo from '../../../assets/game_untitled-android/screenshot2.png'
-import screenshotthree from '../../../assets/game_untitled-android/screenshot3.png'
-import screenshotfour from '../../../assets/game_untitled-android/screenshot4.png'
-import screenshotfive from '../../../assets/game_untitled-android/screenshot5.png'
+import screenshotone from '../../../assets/game_untitled-android/screenshot1.PNG'
+import screenshottwo from '../../../assets/game_untitled-android/screenshot2.PNG'
+import screenshotthree from '../../../assets/game_untitled-android/screenshot3.PNG'
+import screenshotfour from '../../../assets/game_untitled-android/screenshot4.PNG'
+import screenshotfive from '../../../assets/game_untitled-android/screenshot5.PNG'
 
 const Project3 = ({ children }) => {
   return (

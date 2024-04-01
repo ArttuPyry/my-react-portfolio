@@ -1,10 +1,10 @@
 import React from 'react'
 import './projectmodal.css'
-import ded from '../../../assets/game_3Dtest/ded.png'
-import robot from '../../../assets/game_3Dtest/robot.png'
-import dark from '../../../assets/game_3Dtest/dark.png'
-import crate from '../../../assets/game_3Dtest/crate.png'
-import moving from '../../../assets/game_3Dtest/moving.png'
+import ded from '../../../assets/game_3Dtest/ded.PNG'
+import robot from '../../../assets/game_3Dtest/robot.PNG'
+import dark from '../../../assets/game_3Dtest/dark.PNG'
+import crate from '../../../assets/game_3Dtest/crate.PNG'
+import moving from '../../../assets/game_3Dtest/moving.PNG'
 
 const Project2 = ({ children }) => {
   return (
