@@ -14,6 +14,11 @@
     z-index: 3;
     overflow-y: auto;
     overscroll-behavior: none;
+    
+}
+
+.modalbase {
+    transform: translateY(35%);
 }
 
 .modal__content {
@@ -90,7 +95,6 @@ padding: 1rem 1rem 1rem 1rem;
     position: absolute;
     text-align: center;
     left: 50%;
-    transform: translateX(-50%);
     padding-top: 2rem;
 }
 

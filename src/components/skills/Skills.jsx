@@ -107,6 +107,9 @@ const Skills = () => {
             <li>
               <p>- Rhinoceros 7</p>
             </li>
+            <li>
+              <p>- Crocotile 3D</p>
+            </li>
           </ul>
         </article>
         {/* END OF IMAGE AND 3D MODELING */}
