@@ -9,6 +9,7 @@ import IMGGameHero from '../../assets/game_epic-hero/epichero.png'
 import IMGTFG from '../../assets/game_the_forgotten_guardian/theforgottenguardian.png'
 import GIG from '../../assets/game_idea_generator/GIG.png'
 import fpsdc from '../../assets/game_dungeon_crawler/fpsdc.png'
+import sf3d from '../../assets/game_snowfight3D/snowfight3d.png'
 
 import Project1 from './modals/Project1'
 import Project2 from './modals/Project2'
@@ -19,8 +20,14 @@ import Project6 from './modals/Project6'
 import Project7 from './modals/Project7'
 import Project8 from './modals/Project8'
 import Project9 from './modals/Project9'
+import Project10 from './modals/Project10'
 
 const data = [
+  {
+    id: 10,
+    image: sf3d,
+    title: 'Snowfight3D',
+  },
   {
     id: 9,
     image: fpsdc,
@@ -70,6 +77,7 @@ const data = [
 
 const Projects = () => {
 
+  const [modal10, setModal10] = useState(false);
   const [modal9, setModal9] = useState(false);
   const [modal8, setModal8] = useState(false);
   const [modal7, setModal7] = useState(false);
@@ -108,6 +116,9 @@ const Projects = () => {
     if (id === 9) {
       setModal9(!modal9)
     }
+    if (id === 10) {
+      setModal10(!modal10)
+    }
   }
 
   return (
@@ -130,6 +141,16 @@ const Projects = () => {
           })
         }
       </div>
+
+      {modal10 && (
+        <div className="modal">
+          <Project10>
+            <button className='btn btn-primary' onClick={() => toggleModal(10)}>
+              Close
+            </button>
+          </Project10>
+        </div>
+      )}
 
       {modal9 && (
         <div className="modal">

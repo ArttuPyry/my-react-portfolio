@@ -58,6 +58,34 @@ left: 73.8%;
 padding: 1rem 1rem 1rem 1rem;
 }
 
+.btnlowten {
+    position: fixed;
+    left: 73.8%;
+    top: 270%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.btnlownine {
+    position: fixed;
+    left: 73.8%;
+    top: 234%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.btnloweight {
+    position: fixed;
+    left: 73.8%;
+    top: 183%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.btnlowseven {
+    position: fixed;
+    left: 73.8%;
+    top: 200%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
 .project__titles {
     position: absolute;
     text-align: center;
